@@ -1,0 +1,16 @@
+.burger{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .ul{
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .burger{
+        display: block;
+    }
+    .show__links{
+        transform: translateX(0%);
+    }
+}

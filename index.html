@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="bg-white px-40 py-8 fixed top-0 left-0 right-0 flex justify-between items-center shadow-[0px_0px_10px_1px_#bbb4b4] max-sm:py-8 max-sm:px-6">
+            <a href="#">
+                <img src="LOGO.svg" alt="logo">
+            </a>
+            <ul class="flex gap-7 items-center max-sm:flex-col max-sm:bg-white max-sm:absolute max-sm:top-[90px] max-sm:right-0 max-sm:p-5 ul" id="ul">
+                <li><a class="nav__links text-[#837D88] hover:underline active:no-underline" href="#">HOW WE WORK</a></li>
+                <li><a class="text-[#837D88] hover:underline active:no-underline" href="#">BLOG</a></li>
+                <li><a class="text-[#837D88] hover:underline active:no-underline" href="#">ACCOUNT</a></li>
+                <button class="border-black border-2 divide-solid w-[146px] h-10">VIEW PLANS</button>
+            </ul>
+            <img id="burger" class="burger" src="burger.svg" alt="menu">
+        </nav>
+        <div class="bg-[#2D2641] flex justify-center items-center gap-[220px] h-[600px] mt-20 max-sm:flex-col-reverse max-sm:h-[1000px] max-sm:gap-24">
+            <div class="flex flex-col gap-5 w-[540px] max-sm:w-[300px] max-sm:text-center items-center max-sm:gap-8">
+                <h1 class="font-serif text-[72px] text-white leading-[64px] max-sm:text-[48px]">
+                    Humanizing your insurance.
+                </h1>
+                <p class="font-[karla] font-normal text-[16px] text-white ">
+                    Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.
+                </p>
+                <button class="border-white border-2 divide-solid w-[146px] h-10 text-white mr-auto">VIEW PLANS</button>
+            </div>
+            <img class="w-[360px]" src="family.svg" alt="family">
+        </div>
+    </header>
+    <section class="h-[1045px] flex flex-col justify-center items-center gap-[160px] max-sm:h-[1800px]">
+        <div class="flex flex-col gap-[214px] w-[1096px] max-sm:w-[300px] max-sm:items-center">
+            <h2 class="font-serif text-[72px] font-normal max-sm:text-[40px] max-sm:text-center">
+                We’re different
+            </h2>
+            <div class="flex gap-8 max-sm:flex-col max-sm:gap-14 max-sm:text-center">
+                <div class="flex flex-col gap-4 w-[350px] max-sm:items-center">
+                    <img class="w-20" src="lightning.svg" alt="icon">
+                    <h4  class="font-serif text-[28px] font-normal">
+                        Snappy Process
+                    </h4>
+                    <p class="text-[#837D88] font-normal">
+                        Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4 w-[350px] max-sm:items-center">
+                    <img class="w-20" src="money.svg" alt="icon">
+                    <h4  class="font-serif text-[28px] font-normal">
+                        Affordable Prices
+                    </h4>
+                    <p class="text-[#837D88] font-normal">
+                        We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4 w-[350px] max-sm:items-center">
+                    <img class="w-20" src="contact.svg" alt="icon">
+                    <h4  class="font-serif text-[28px] font-normal">
+                        People First
+                    </h4>
+                    <p class="text-[#837D88] font-normal">
+                        Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1110px] h-[250px] bg-[#2D2641] flex justify-between items-center px-20 py-16 max-sm:w-[330px] max-sm:h-[350px] max-sm:py-10 max-sm:px-6 max-sm:flex-col max-sm:gap-10 max-sm:justify-center">
+            <h3 class="font-serif font-normal leading-[56px] text-[56px] text-white w-[500px] max-sm:text-[40px] max-sm:text-center max-sm:w-full">
+                Find out more about how we work
+            </h3>
+            <button class="w-40 h-10 border-white border-2 divide-solid text-white">HOW WE WORK</button>
+        </div>
+    </section>
+    <footer class="bg-zinc-50 h-[183px] px-[165px] flex flex-col gap-8 justify-center max-sm:h-[200px] max-sm:px-6">
+        <div class="flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:gap-6">
+            <img class="w-[110px]" src="LOGO.svg" alt="logo">
+            <ul class="flex gap-4">
+                <li><a href="#"><img src="facebook.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"><img src="P.svg" alt="P"></a></li>
+                <li><a href="#"><img src="instagram.svg" alt="instagram"></a></li>
+            </ul>
+        </div>
+        <div class="h-1 w-full bg-stone-300 max-sm:h-[0.7px]"></div>
+    </footer>
+    <script>
+        const navSlide = () => {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.ul');
+        burger.addEventListener('click', () => {
+        console.log("test");
+        nav.classList.toggle('show__links');
+        });
+        }
+
+        navSlide(); 
+    </script>
+</body>
+</html>
